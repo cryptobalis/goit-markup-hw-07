@@ -1,14 +1,16 @@
-.works__list {
+.works {
+
+  &__list {
     display: flex;
     gap: 30px;
   }
   
-  .works__item {
+  &__item {
     flex-basis: calc((100% - 60px) / 3);
     position: relative;
   }
   
-  .works__title {
+  &__title {
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
@@ -27,3 +29,6 @@
   
     background-color: $works-bg-color;
   }
+
+}
+
